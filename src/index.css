@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  ;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* NAvbar styling */
+
+.logo{
+  width:50px ;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+}
+.navbar a:hover {
+      color: rgb(255, 115, 0);
+      
+}
+
+
+
+/* common page styling */
+#header{
+      height: 85vh;
+}
+
+.brand-name{
+       color:rgb(255, 115, 0);
+}
+#start-btn:hover{
+  color: white;
+  background-color:rgb(255, 115, 0);
+}
+
+/* Aniimation on home pic  */
+ .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+ }
+ @keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+  
+ }
+
+.home{
+  background-color:rgba(255, 115, 0, 65%);
+  height:90vh;
+}
+
+ /* Card css */
