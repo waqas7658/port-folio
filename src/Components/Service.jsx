@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Cdata from "../Components/Cdata";
-import Contact from "../Components/Contact";
+
 
 export default function Service() {
   return (

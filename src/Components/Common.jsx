@@ -29,7 +29,7 @@ export default function Common(props) {
                 <img
                   src={props.imgsrc}
                   className=" img-fluid rounded-pill animated"
-                  alt="home image"
+                  alt="home-img"
                 />
               </div>
               </div>
